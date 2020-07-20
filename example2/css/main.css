@@ -1,0 +1,15 @@
+.hidden {
+    display: none;
+}
+
+.modalform {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 100px;
+    background-color:rgb(226, 226, 226);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 8px;
+}
