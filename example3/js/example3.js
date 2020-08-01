@@ -8,6 +8,9 @@ var overlay = document.querySelector(".overlay")
 var exit1 = document.querySelector(".exit1")
 var exit2 = document.querySelector(".exit2")
 var exit3 = document.querySelector(".exit3")
+var idetail1 = document.querySelector(".idetail1")
+var idetail2 = document.querySelector(".idetail2")
+var idetail3 = document.querySelector(".idetail3")
 
 function HandlerBtn1(){
     menuform1.style.left = "0px"
@@ -47,3 +50,9 @@ function HandlerExit3(){
 
 Btn3.addEventListener("click", HandlerBtn3)
 exit3.addEventListener("click",HandlerExit3)
+
+function HandlerIdetail1(){
+    idetail1.style.left = "470px"
+}
+
+idetail1.addEventListener("click", HandlerIdetail1)
