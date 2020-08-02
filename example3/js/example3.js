@@ -51,8 +51,32 @@ function HandlerExit3(){
 Btn3.addEventListener("click", HandlerBtn3)
 exit3.addEventListener("click",HandlerExit3)
 
-function HandlerIdetail1(){
-    idetail1.style.left = "470px"
+function Handleridetail1(){
+    menuform1.style.left = "0px"
+    idetail1.style.left = "430px"
+    idetail2.style.left = "400px"
+    idetail3.style.left = "400px"
+    overlay.classList.remove("hidden")
 }
 
-idetail1.addEventListener("click", HandlerIdetail1)
+idetail1.addEventListener("click",Handleridetail1)
+
+function Handleridetail2(){
+    menuform2.style.left = "0px"
+    idetail1.style.left = "400px"
+    idetail2.style.left = "430px"
+    idetail3.style.left = "400px"
+    overlay.classList.remove("hidden")
+}
+
+idetail2.addEventListener("click",Handleridetail2)
+
+function Handleridetail3(){
+    menuform3.style.left = "0px"
+    idetail1.style.left = "400px"
+    idetail2.style.left = "400px"
+    idetail3.style.left = "430px"
+    overlay.classList.remove("hidden")
+}
+
+idetail3.addEventListener("click",Handleridetail3)

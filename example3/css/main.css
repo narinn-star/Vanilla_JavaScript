@@ -106,27 +106,35 @@
 .index {
     width: 120px;
     height: 35px;
-    border-color: white;
-    border-style: solid;
+    border-style: none;
 }
 
 .idetail1{
     position: absolute;
-    top: 35px;
+    top: 45px;
     left: -100px;
     background-color: rgb(226, 96, 96);
+    z-index:2
+}
+.index, .menuform1, .menuform2, .menuform3{
+    transition: all ease 1s;
+}
+.index:hover{
+    cursor: pointer;
 }
 
 .idetail2{
     position: absolute;
-    top: 75px;
+    top: 85px;
     left: -100px;
     background-color: rgb(245, 208, 139);
+    z-index:2
 }
 
 .idetail3{
     position: absolute;
-    top: 115px;
+    top: 125px;
     left: -100px;
     background-color: rgb(245, 245, 114);
+    z-index:2
 }
