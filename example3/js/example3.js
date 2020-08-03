@@ -19,6 +19,7 @@ function HandlerBtn1(){
 
 function HandlerExit1(){
     menuform1.style.left = "-500px"
+    idetail1.style.left = "-100px"
     overlay.classList.add("hidden")
 }
 
@@ -32,6 +33,7 @@ function HandlerBtn2(){
 
 function HandlerExit2(){
     menuform2.style.left = "-500px"
+    idetail2.style.left = "-100px"
     overlay.classList.add("hidden")
 }
 
@@ -45,6 +47,7 @@ function HandlerBtn3(){
 
 function HandlerExit3(){
     menuform3.style.left = "-500px"
+    idetail3.style.left = "-100px"
     overlay.classList.add("hidden")
 }
 
