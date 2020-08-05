@@ -20,6 +20,8 @@ function HandlerBtn1(){
 function HandlerExit1(){
     menuform1.style.left = "-500px"
     idetail1.style.left = "-100px"
+    idetail2.style.left = "-100px"
+    idetail3.style.left = "-100px"
     overlay.classList.add("hidden")
 }
 
@@ -33,7 +35,9 @@ function HandlerBtn2(){
 
 function HandlerExit2(){
     menuform2.style.left = "-500px"
+    idetail1.style.left = "-100px"
     idetail2.style.left = "-100px"
+    idetail3.style.left = "-100px"
     overlay.classList.add("hidden")
 }
 
@@ -47,6 +51,8 @@ function HandlerBtn3(){
 
 function HandlerExit3(){
     menuform3.style.left = "-500px"
+    idetail1.style.left = "-100px"
+    idetail2.style.left = "-100px"
     idetail3.style.left = "-100px"
     overlay.classList.add("hidden")
 }
@@ -56,6 +62,8 @@ exit3.addEventListener("click",HandlerExit3)
 
 function Handleridetail1(){
     menuform1.style.left = "0px"
+    menuform2.style.left - "-500px"
+    menuform3.style.left = "-500px"
     idetail1.style.left = "430px"
     idetail2.style.left = "400px"
     idetail3.style.left = "400px"
@@ -65,7 +73,9 @@ function Handleridetail1(){
 idetail1.addEventListener("click",Handleridetail1)
 
 function Handleridetail2(){
+    menuform1.style.left = "-500px"
     menuform2.style.left = "0px"
+    menuform3.style.left = "-500px"
     idetail1.style.left = "400px"
     idetail2.style.left = "430px"
     idetail3.style.left = "400px"
@@ -75,6 +85,8 @@ function Handleridetail2(){
 idetail2.addEventListener("click",Handleridetail2)
 
 function Handleridetail3(){
+    menuform1.style.left = "-500px"
+    menuform2.style.left - "-500px"
     menuform3.style.left = "0px"
     idetail1.style.left = "400px"
     idetail2.style.left = "400px"
