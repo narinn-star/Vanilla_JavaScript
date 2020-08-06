@@ -14,6 +14,11 @@ var idetail3 = document.querySelector(".idetail3")
 
 function HandlerBtn1(){
     menuform1.style.left = "0px"
+    menuform2.style.left = "-500px"
+    menuform3.style.left = "-500px"
+    idetail1.style.left = "430px"
+    idetail2.style.left = "400px"
+    idetail3.style.left = "400px"
     overlay.classList.remove("hidden")
 }
 
@@ -29,7 +34,12 @@ Btn1.addEventListener("click",HandlerBtn1)
 exit1.addEventListener("click",HandlerExit1)
 
 function HandlerBtn2(){
+    menuform1.style.left = "-500px"
     menuform2.style.left = "0px"
+    menuform3.style.left = "-500px"
+    idetail1.style.left = "400px"
+    idetail2.style.left = "430px"
+    idetail3.style.left = "400px"
     overlay.classList.remove("hidden")
 }
 
@@ -45,7 +55,12 @@ Btn2.addEventListener("click", HandlerBtn2)
 exit2.addEventListener("click",HandlerExit2)
 
 function HandlerBtn3(){
+    menuform1.style.left = "-500px"
+    menuform2.style.left = "-500px"
     menuform3.style.left = "0px"
+    idetail1.style.left = "400px"
+    idetail2.style.left = "400px"
+    idetail3.style.left = "430px"
     overlay.classList.remove("hidden")
 }
 
@@ -62,7 +77,7 @@ exit3.addEventListener("click",HandlerExit3)
 
 function Handleridetail1(){
     menuform1.style.left = "0px"
-    menuform2.style.left - "-500px"
+    menuform2.style.left = "-500px"
     menuform3.style.left = "-500px"
     idetail1.style.left = "430px"
     idetail2.style.left = "400px"
@@ -86,7 +101,7 @@ idetail2.addEventListener("click",Handleridetail2)
 
 function Handleridetail3(){
     menuform1.style.left = "-500px"
-    menuform2.style.left - "-500px"
+    menuform2.style.left = "-500px"
     menuform3.style.left = "0px"
     idetail1.style.left = "400px"
     idetail2.style.left = "400px"
